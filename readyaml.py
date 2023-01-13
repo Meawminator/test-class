@@ -7,7 +7,7 @@ print('Количество элементов в словаре', d)
 print("Возможные варианты:")
 i = 0
 for name in read_data['client']:
-    print(i + 1, "элемент имеет значение", read_data['client'][i]["name"])
+    print(i + 1, "элемент имеет ключ", read_data['client'][i]["name"])
     i += 1
 
 while True:
